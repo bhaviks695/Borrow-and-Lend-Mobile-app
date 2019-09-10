@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#E3E9E5"
+    android:orientation="vertical">
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/profiletoolbar"
+        android:layout_width="match_parent"
+        android:layout_height="?attr/actionBarSize"
+        android:elevation="4dp"
+        android:background="#00A0E5">
+    </android.support.v7.widget.Toolbar>
+
+
+
+        <TextView
+            android:id="@+id/profileusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:text="User Name"
+            android:gravity="center"
+            android:textSize="30sp"
+            android:textColor="#111"
+            />
+
+    <TextView
+        android:id="@+id/profilephonenumber"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:text="User phone number"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#111"
+        />
+
+<Button
+    android:id="@+id/btnupdate"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_marginBottom="10dp"
+    android:layout_gravity="center"
+    android:text="Update"
+    />
+
+
+
+</LinearLayout>
+

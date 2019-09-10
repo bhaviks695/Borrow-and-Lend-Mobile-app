@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">Borrow and Lend</string>
+    <string name="title_activity_home">Home</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_Profile">Profile</string>
+
+    <string name="menu_home">Home</string>
+    <string name="menu_chat">Chats</string>
+    <string name="sign_out">Sign Out</string>
+    <string name="lend">Lend Item</string>
+    <string name="view_borrowed_lended_items"><![CDATA[View borrowed & lended items]]></string>
+    <string name="title_activity_vew">Vew</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="sign_up">Sign up</string>
+    <string name="reenter_password">Re-enter Password</string>
+    <string name="password">Password</string>
+    <string name="already_have_an_acount_log_in">Already have an acount? Log in</string>
+
+    <string name="dialog_select_photo">SelectPhoto</string>
+
+    <string name="node_posts">Posts</string>
+
+    <string name="preferences_item">preferences_item</string>
+    <string name="search">Search</string>
+
+    <string name="node_request">Request</string>
+    <string name="request_type">Request_type</string>
+    <string name="received">Recieved</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>

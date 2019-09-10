@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#E3E9E5"
+    android:orientation="vertical" >
+
+    <android.support.v7.widget.Toolbar
+        android:id="@+id/postviewtoolabar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+    </android.support.v7.widget.Toolbar>
+
+    <ImageView
+        android:id="@+id/postviewimage"
+        android:layout_width="match_parent"
+        android:layout_height="210dp"
+        android:scaleType="centerCrop"
+        android:src="@drawable/ic_android"
+        android:adjustViewBounds="true"
+        />
+
+    <TextView
+        android:id="@+id/postviewname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Post item name"
+        android:gravity="center"
+        android:textSize="45sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="20sp"
+        />
+
+    <TextView
+    android:id="@+id/postviewitemprice"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:text = "50ksh/hour"
+    android:gravity="center"
+    android:textSize="30sp"
+    android:textColor="#000000"
+    />
+
+    <TextView
+        android:id="@+id/postviewitemdesc"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Item description"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        android:layout_marginBottom="30dp"
+        />
+    <TextView
+        android:id="@+id/postviewitemlocation"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text = "Item Location"
+        android:gravity="center"
+        android:textSize="30sp"
+        android:textColor="#000000"
+        />
+<LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    android:padding="10dp"
+    android:layout_gravity="end">
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btndelete"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_delete"
+        android:visibility="invisible"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:layout_marginRight="20dp"
+        android:id="@+id/btncall"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:src="@drawable/ic_call"
+        android:visibility="invisible" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnmessage"
+        android:layout_marginRight="20dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:visibility="invisible"
+    android:src="@drawable/ic_message" />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/btnbook"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="end"
+        android:visibility="invisible"
+        android:src="@drawable/ic_book" />
+
+
+</LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+    <RatingBar
+        android:id="@+id/ratingbar"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="5dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+    <Button
+        android:id="@+id/submitrate"
+        android:layout_marginTop="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Rate user"
+        android:visibility="gone"/>
+
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>

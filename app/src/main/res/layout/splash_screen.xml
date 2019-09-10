@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:background="#E3E9E5"
+    android:orientation="vertical" >
+
+    <ImageView
+        android:layout_marginTop="50dp"
+        android:id="@+id/logo_id"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        android:layout_gravity="center"
+        android:src="@drawable/logo_transparent" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/logo_id"
+        android:layout_centerHorizontal="true"
+        android:layout_gravity="center"
+        android:text="Borrow and Lend Items"
+        android:textSize="30sp"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Version: 1.0"
+        android:textSize="15sp"
+        android:layout_marginTop="15dp"
+        android:layout_gravity="center"
+        />
+
+
+</LinearLayout>
